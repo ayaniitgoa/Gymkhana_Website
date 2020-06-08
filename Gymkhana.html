@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Gymkhana</title>
+	<!--START-FAVICON-->
+	<link rel="shortcut icon" href="iit-goa-logo.ico" />
+
+	<!--END-FAVICON-->
+  <!---------START- LINK AND SCRIPT FOR ANIMATED CANVAS BACKGROUND---------------->
+    
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo4.css" />
+	<!--START-SCRIPT TAG FOR WORKING OF THE BACKGROUND-->
+    <script>
+      document.documentElement.className = 'js';
+      var supportsCssVars = function() {
+        var e,
+          t = document.createElement('style');
+        return (
+          (t.innerHTML = 'root: { --tmp-var: bold; }'),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports('font-weight', 'var(--tmp-var)')
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          'Please view this demo in a modern browser that supports CSS Variables.'
+        );
+	</script>
+	<!--END-SCRIPT TAG FOR WORKING OF THE BACKGROUND-->
+
+	<!---------END- LINK AND SCRIPT FOR ANIMATED CANVAS BACKGROUND---------------->
+	<!---------CSS FOR REST ------------------->
+	<link rel="stylesheet" href="./css/gymkhana.css" />
+
+  </head>
+  <!--DO NOT REMOVE demo-4 frame content content--canvas classes-->
+  <!--myFunction() for the working of the footer on bigger screens-->
+  <body class="demo-4" onscroll="myFunction()">
+    <main>
+      <div class="frame">
+        <section class="entire-page">
+			<div class="gymkhana-header">
+			  <h1>GYMKHANA <span class="span-iitgoa">IIT GOA</span> </h1>
+			</div>
+			<div class="main-text">
+			  <p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eaque
+				omnis molestiae odit possimus dignissimos beatae minus vel debitis
+				eius aut sit repellat illo ex incidunt consequuntur officia earum vero
+				reiciendis maiores, quas amet. Illum veniam itaque omnis, quos
+				consequatur doloribus, voluptas suscipit voluptatem delectus minus
+				nobis? Placeat at iste minus. Nulla quos voluptate adipisci sequi
+				ullam iure impedit porro dolores dignissimos, ratione nisi enim ab in
+				dolor rem amet! Atque possimus itaque distinctio inventore, iste
+				eveniet ullam quisquam beatae ipsa, quae fugiat quasi earum quas? Ipsa
+			  </p>
+			</div>
+			<section class="club-link-logo">
+			  <a href="#"
+				><img
+				  src="./images/mukhota.png"
+				  alt="mukhota-link"
+				  class="logo mukhota-logo"
+			  /></a>
+			  <a href="#"
+				><img
+				  src="./images/meraki.png"
+				  alt="meraki-link"
+				  class="logo meraki-logo"
+			  /></a>
+			  <a href="#"
+				><img
+				  src="./images/Orion.png"
+				  alt="orion-link"
+				  class="logo orion-logo"
+			  /></a>
+			  <a href="">
+				<img
+				  src="./images/panache.png"
+				  alt="panache-link"
+				  class="logo panache-logo"
+			  /></a>
+			  <a href="#">
+				  <!--DO NOT REMOVE KALAM-LOGO CLASS-->
+				<img
+				  src="./images/kalamdot.png"
+				  alt="kalam-link"
+				  class="logo kalam-logo"
+				/>
+			  </a>
+			  <!--START-THIS FOOTER COMES AFTER 651px-->
+			  <div class="footertwo">
+				Made With Love By ArchiTechs
+			</div>
+			<!--END-THIS FOOTER COMES AFTER 651px-->
+			</section>
+			
+			<footer >	
+				<div class="footer" id="footer"> 
+				<p id="footerp">Made With Love By ArchiTechs</p>
+			  </div>
+			 
+			</footer>
+			
+		  </section>
+		  
+      <div class="content content--canvas">
+		
+        <!-- <h2 class="content__title">Coalesce</h2> -->
+      </div>
+	</main>
+	
+   <!-------------------JS FOR BACKGROUND-------------------->
+    <script src="js/noise.min.js"></script>
+    <script src="js/util.js"></script>
+    <script src="js/coalesce.js"></script>
+	<script src="js/demo.js"></script>
+	<!--------------------JS FOR REST------------------->
+    <script src="js/gymkhana.js"></script>
+  </body>
+</html>
